@@ -9,7 +9,8 @@
 
 .col {
   display: table-cell;
-  width: 33.33%; /* depends on the number of columns */
+  width: 33.33%;
+  /* depends on the number of columns */
 }
 
 body {
@@ -704,6 +705,7 @@ ul.timeline {
   list-style-type: none;
   position: relative;
 }
+
 ul.timeline:before {
   content: ' ';
   background: #d4d9df;
@@ -714,20 +716,23 @@ ul.timeline:before {
   height: 100%;
   z-index: 400;
 }
-ul.timeline > li {
+
+ul.timeline>li {
   margin: 20px 0;
   padding-left: 20px;
 }
+
 .timelime__title {
   font-weight: 900;
 }
-ul.timeline > li:before {
+
+ul.timeline>li:before {
   content: ' ';
   background: white;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #0022db;
+  border: 3px solid #6f00c4;
   left: 20px;
   width: 20px;
   height: 20px;
@@ -740,5 +745,11 @@ ul.timeline > li:before {
 
 .empresa {
   font-weight: 900;
-  color: #0022db;
+  color: #6f00c4;
+}
+
+.fecha {
+  font-size: 10px;
+  margin-top: 15px;
+  margin-left: -7px;
 }
