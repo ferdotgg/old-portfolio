@@ -80,25 +80,9 @@ i.fa {
   background-position: top;
 }
 
-.profile-container>img {
-  align-items: center;
-  opacity: 0.1;
-  background-position: center;
-}
-
 .profile-container {
   text-align: center;
   margin-top: 150px;
-}
-
-.profile-container-name>h1 {
-  font-weight: 900;
-  font-size: 50px;
-}
-
-.profile-container-title>h5 {
-  font-weight: 600;
-  font-style: italic;
 }
 
 .profile-container-avatar>img {
@@ -108,18 +92,14 @@ i.fa {
   margin-bottom: 20px;
 }
 
-.nombre {
-  color: gold;
+.profile-container-name > h1 {
   font-weight: 900;
+  font-size: 50px;
 }
 
-.profile-container-name>h5 {
+.profile-container-name> h5 {
   font-weight: 600;
   font-size: 30px;
-}
-
-.information__container-about>span {
-  color: goldenrod;
 }
 
 /* ========================= SERVICES ========================= */
@@ -661,9 +641,24 @@ i.fa {
   padding: 20px;
 }
 
+.timelime-date {
+  font-size: 10px;
+  margin-top: 15px;
+  margin-left: -7px;
+}
+
 ul.timeline {
   list-style-type: none;
   position: relative;
+}
+
+.timelime-title {
+  font-weight: 900;
+}
+
+.timelime-company {
+  font-weight: 900;
+  color: #ffda45;
 }
 
 ul.timeline:before {
@@ -680,10 +675,6 @@ ul.timeline:before {
 ul.timeline>li {
   margin: 20px 0;
   padding-left: 20px;
-}
-
-.timelime-title {
-  font-weight: 900;
 }
 
 ul.timeline>li:before {
@@ -703,15 +694,54 @@ ul.timeline>li:before {
   width: 260px;
 }
 
-.timelime-company {
-  font-weight: 900;
-  color: #ffda45;
+/* ========================= SKILLS========================= */
+
+.skills-section {
+  background: #0f0f0f;
+  padding: 50px;
+  background-image: url(/assets/images/skillsbg.jpg);
 }
 
-.timelime-date {
-  font-size: 10px;
-  margin-top: 15px;
-  margin-left: -7px;
+.section-skills-title {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.skills-title {
+  font-weight: 500;
+  color: white;
+  font-style: italic;
+  padding: 5px;
+}
+
+.progress {
+  margin: 10px 10px;
+  border-radius: 0 !important;
+}
+
+.progress-bar {
+  text-align: left;
+  padding: 5px;
+}
+
+.bg-dev {
+  background-color: #ffda45 !important;
+  color: black !important;
+}
+
+.bg-designer {
+  background-color: #8e00ad !important;
+  color: white !important;
+}
+
+.bg-otherskills {
+  background-color: #ad0006 !important;
+  color: white !important;
 }
 
 /* ========================= STUDIES ========================= */
@@ -721,21 +751,21 @@ ul.timeline>li:before {
   padding: 50px;
 }
 
-.section-title {
+.certificate-section-title {
   color: white;
   font-weight: 900;
   font-size: 15px;
   position: relative;
 }
 
-.section-title>span {
+.certificate-section-title>span {
   position: relative;
   display: inline-block;
   padding-right: 1.4em;
   background: #111111;
 }
 
-.section-title:before {
+.certificate-section-title:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -744,21 +774,21 @@ ul.timeline>li:before {
   border-bottom: 4px solid #ffda45;
 }
 
-.section-title-about {
+.certificate-section-title-about {
   color: white;
   font-weight: 900;
   font-size: 15px;
   position: relative;
 }
 
-.section-title-about>span {
+.certificate-section-title-about>span {
   position: relative;
   display: inline-block;
   padding-right: 1.4em;
   background: #100a27;
 }
 
-.section-title-about:before {
+.certificate-section-title-about:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -794,78 +824,13 @@ ul.timeline>li:before {
   transition: 0.5s;
 }
 
-.certificate-container-text {
-  margin-left: 10px;
-}
-
 .certificate-container-image>img {
   width: 50px;
   border-radius: 50%;
 }
 
-/* ========================= SKILLS========================= */
-
-.skills-section {
-  background: #0f0f0f;
-  padding: 50px;
-  background-image: url(/assets/images/skillsbg.jpg);
-}
-
-.skills-title {
-  font-weight: 500;
-  color: white;
-  font-style: italic;
-  padding: 5px;
-}
-
-.section-title-skills {
-  color: white;
-  font-weight: 900;
-  font-size: 30px;
-  position: relative;
-  padding: 10px;
-  text-align: center;
-  border-bottom: 2px solid white;
-}
-
-.progress {
-  margin: 10px 10px;
-  border-radius: 0 !important;
-}
-
-.progress-bar {
-  text-align: left;
-  padding: 5px;
-}
-
-.bg-dev {
-  background-color: #ffda45 !important;
-  color: black !important;
-}
-
-.bg-designer {
-  background-color: #8e00ad !important;
-  color: white !important;
-}
-
-.bg-otherskills {
-  background-color: #ad0006 !important;
-  color: white !important;
-}
-
-/* ========================= CONTACT ========================= */
-
-.contactame {
-  padding: 20px;
-  background: #ffda45;
-  justify-content: center;
-  text-align: center;
-}
-
-.contactame__container>h2 {
-  font-weight: 800;
-  color: white;
-  margin-bottom: 15px;
+.certificate-container-text {
+  margin-left: 10px;
 }
 
 /* ========================= CYBERTRUCK BUTTON ========================= */
@@ -955,6 +920,11 @@ canvas {
 }
 
 /* ---- particles.js container ---- */
+.particles-section {
+  align-items: center;
+  justify-content: center;
+}
+
 #particles-js {
   position: relative;
   width: 100%;
@@ -966,11 +936,6 @@ canvas {
   background-attachment: fixed;
   overflow: hidden;
   text-align: center;
-}
-
-.particles-section {
-  align-items: center;
-  justify-content: center;
 }
 
 .social {
