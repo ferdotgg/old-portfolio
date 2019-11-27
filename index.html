@@ -28,7 +28,7 @@
     <section class="profile">
         <div class="profile__container">
             <div class="profile__container-avatar">
-                <img src="./assets/images/avatar.png" alt="">
+                <img class="lazyload" data-src="./assets/images/avatar.png" alt="">
             </div>
             <div class="profile__container-name">
                 <h1>Fernando Briceño</h1>
@@ -59,8 +59,8 @@
                                 <h5 class="title"><a>Interfaces de usuario.</a></h5>
                                 <p>Puedo crear sitios web de calidad a nivel de diseño a preferencia del cliente, para
                                     esto utilizo tecnologías modernas.</p>
-                                <a class="detail-button"><i class="icon-img"><img
-                                            src="https://image.flaticon.com/icons/svg/1027/1027567.svg"></i></a>
+                                <a class="detail-button"><i class="icon-img"><img class="lazyload"
+                                            data-src="https://image.flaticon.com/icons/svg/1027/1027567.svg"></i></a>
                             </div> <!-- /.service-block -->
                         </div> <!-- /.single-block -->
                         <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up"
@@ -78,8 +78,8 @@
                                 <h5 class="title"><a>Desarrollo.</a></h5>
                                 <p>Tengo conocimientos en tecnologías modernas como React, Laravel. También sobre base
                                     de datos SQL y NoSQL.</p>
-                                <a class="detail-button"><i class="icon-img"><img
-                                            src="https://image.flaticon.com/icons/svg/616/616985.svg"
+                                <a class="detail-button"><i class="icon-img"><img class="lazyload"
+                                            data-src="https://image.flaticon.com/icons/svg/616/616985.svg"
                                             width="100%"></i></a>
                             </div> <!-- /.service-block -->
                         </div> <!-- /.single-block -->
@@ -99,7 +99,7 @@
                                 <p>Consigo adaptarme a códigos de terceros para poder brindar mantenimiento a
                                     aplicaciones en producción.</p>
                                 <a class="detail-button"><i class="icon-img">
-                                        <img src="https://image.flaticon.com/icons/svg/1077/1077147.svg" width="100%">
+                                        <img class="lazyload" data-src="https://image.flaticon.com/icons/svg/1077/1077147.svg" width="100%">
                                     </i></a>
                             </div> <!-- /.service-block -->
                         </div> <!-- /.single-block -->
@@ -128,7 +128,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <img class="kash  animatable bounceIn" src="/assets/images/kash.png" alt="">
+                    <img class="kash animatable bounceIn lazyload" data-src="/assets/images/kash.png" alt="">
                 </div>
             </div>
         </div>
@@ -239,7 +239,7 @@
                         target="_blank">
                         <div class="sectionOP__container animatable bounceIn">
                             <div class="sectionOP__container-imagen">
-                                <img src="/assets/images/platzi.png" alt="Certificado">
+                                <img class="lazyload" data-src="/assets/images/platzi.png" alt="Certificado">
                             </div>
                             <div class="sectionOP__container-texto">
                                 Curso de Frontend Developer
@@ -252,7 +252,7 @@
                     <a class="sectionOPURL" href="https://www.udemy.com/certificate/UC-09DGRHLV/" target="_blank">
                         <div class="sectionOP__container animatable bounceIn">
                             <div class="sectionOP__container-imagen">
-                                <img src="/assets/images/udemy.png" alt="Certificado">
+                                <img class="lazyload" data-src="/assets/images/udemy.png" alt="Certificado">
                             </div>
                             <div class="sectionOP__container-texto">
                                 Master en JavaScript
@@ -276,16 +276,16 @@
         <div id="particles-js">
                         <div class="redes">
                                 <div class="redes__iconos">
-                                    <a href="https://github.com/ScriptKash" target="_blank"><img src="/assets/images/iconos/github.png" alt=""></a>
+                                    <a href="https://github.com/ScriptKash" target="_blank"><img class="lazyload" data-src="/assets/images/iconos/github.png" alt=""></a>
                                 </div>
                                 <div class="redes__iconos">
-                                        <a href="https://twitter.com/ScriptKash" target="_blank"><img src="/assets/images/iconos/twitter.svg" alt=""></a>
+                                        <a href="https://twitter.com/ScriptKash" target="_blank"><img class="lazyload" data-src="/assets/images/iconos/twitter.svg" alt=""></a>
                                     </div>
                                     <div class="redes__iconos">
-                                            <a href="https://www.linkedin.com/in/scriptkash/" target="_blank"><img src="/assets/images/iconos/linkedin.svg" alt=""></a>
+                                            <a href="https://www.linkedin.com/in/scriptkash/" target="_blank"><img class="lazyload" data-src="/assets/images/iconos/linkedin.svg" alt=""></a>
                                         </div>
                                         <div class="redes__iconos">
-                                                <a href="https://medium.com/@scriptkash" target="_blank"><img src="/assets/images/iconos/medium.png" alt=""></a>
+                                                <a href="https://medium.com/@scriptkash" target="_blank"><img class="lazyload" data-src="/assets/images/iconos/medium.png" alt=""></a>
                                             </div>
                             </div>
                 </div>
@@ -293,6 +293,7 @@
 
 
     <!-- SCRIPTS -->
+    <script src="/assets/js/lazysizes.min.js" async=""></script>
     <script src="/assets/js/rellax.min.js"></script>
       <script type="text/javascript">
             var rellax = new Rellax('.rellax');
