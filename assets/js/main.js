@@ -12,7 +12,7 @@ window.onload = function () {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid gold; font-weight: 800; }";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #ffda45; font-weight: 800; }";
   document.body.appendChild(css);
 };
 

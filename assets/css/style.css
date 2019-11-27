@@ -744,7 +744,7 @@ ul.timeline>li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid gold;
+  border: 3px solid #ffda45;
   left: 20px;
   width: 20px;
   height: 20px;
@@ -762,7 +762,7 @@ ul.timeline>li:before {
 
 .empresa {
   font-weight: 900;
-  color: gold;
+  color: #ffda45;
 }
 
 .fecha {
@@ -1538,9 +1538,9 @@ i.fa {
 .parallax-el {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 140%;
   background: url(/assets/images/parallax/ryze.png) no-repeat 50% 50%;
-  background-size: contain;
+  background-size: cover;
   top: 20%;
 }
 
@@ -1563,7 +1563,7 @@ i.fa {
 
 .whitespace {
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   background-color: black;
 }
 
