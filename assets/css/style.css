@@ -164,9 +164,7 @@ button:hover {
 .our-service-sass {
   /* background: url(http://lan.leagueoflegends.com/sites/default/files/bot-de-esports.jpg) no-repeat center bottom; */
 
-  background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 34, 219, 0.80)),
-    url('http://lan.leagueoflegends.com/sites/default/files/bot-de-esports.jpg');
+  background: #6000ff;
     width: 100%;
     height: 100%;
   background-repeat: no-repeat;
@@ -174,8 +172,7 @@ button:hover {
 	background-size: cover;
   background-attachment: fixed;
   position: relative;
-  padding: 15px 0 60px;
-  background-color: #f9f9f9;
+  padding: 0px 0 60px;
 }
 
 .theme-title-one .icon-box .icon {
