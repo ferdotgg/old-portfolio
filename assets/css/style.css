@@ -155,7 +155,7 @@ button:hover {
   100% {
     border-color: rgba(255, 255, 255, 1);
     background: #fff;
-    color: #000;
+    color: #111111;
   }
 }
 
@@ -705,23 +705,13 @@ button:hover {
 
 .purple-section {
   color: white;
-  background-color: blueviolet;
-  background-image: url(https://i.imgur.com/s1XOjuV.png);
+  background-color: #111111;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom bottom;
 	background-size: cover;
-  padding: 50px;
+  padding: 20px;
 }
-
-.purple-section:before{
-  position:fixed;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
-  background:url('https://i.imgur.com/s1XOjuV.png');
-  }
 
 ul.timeline {
   list-style-type: none;
@@ -763,6 +753,11 @@ ul.timeline>li:before {
 
 .kash {
   width: 260px;
+}
+
+.kash:hover {
+  transform: scale(3);
+  transition: 1s;
 }
 
 .empresa {
@@ -1570,4 +1565,17 @@ i.fa {
   width: 100%;
   height: 100vh;
   background-color: black;
+}
+
+.contactame {
+  padding: 20px;
+  background: #ffda45;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactame__container > h2 {
+  font-weight: 800;
+  color: white;
+  margin-bottom: 15px;
 }
