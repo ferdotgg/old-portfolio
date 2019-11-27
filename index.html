@@ -8,6 +8,7 @@
 
     <!-- CSS -->
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/animations.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -30,11 +31,11 @@
     </header>
 
     <section class="profile">
-        <div class="profile__container">
-            <div class="profile__container-avatar">
+        <div class="profile-container">
+            <div class="profile-container-avatar">
                 <img class="lazyload" data-src="./assets/images/avatar.jpg" alt="">
             </div>
-            <div class="profile__container-name">
+            <div class="profile-container-name">
                 <h1>Fernando Briceño</h1>
                 <h5>Soy
                     <span class="txt-rotate" data-period="2000"
@@ -44,20 +45,13 @@
         </div>
     </section>
 
-    <section class=".service-container">
+    <section class="service-container">
         <div class="our-service-sass hide-pr show-pr">
             <div class="container">
                 <div class="inner-wrapper">
                     <div class="row">
                         <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up">
                             <div class="service-block">
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
                                 <div class="hover-content"></div>
                                 <i class="flaticon-web icon-s"></i>
                                 <h5 class="title"><a>Interfaces de usuario.</a></h5>
@@ -69,13 +63,6 @@
                         </div> <!-- /.single-block -->
                         <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-block">
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
                                 <div class="hover-content"></div>
                                 <i class="flaticon-value icon-s"></i>
                                 <h5 class="title"><a>Desarrollo.</a></h5>
@@ -88,13 +75,6 @@
                         </div> <!-- /.single-block -->
                         <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
                             <div class="service-block">
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
-                                <span class="snow-dot"></span>
                                 <div class="hover-content"></div>
                                 <i class="flaticon-login icon-s"></i>
                                 <h5 class="title"><a>Mantenimiento.</a></h5>
@@ -113,37 +93,37 @@
         </div>
     </section>
 
-    <section class="purple-section">
+    <section class="experience-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8">
                     <h4>Experiencia reciente</h4>
-                    <span class="fecha float-left">2018</span>
+                    <span class="timelime-date float-left">2018</span>
                     <ul class="timeline">
                         <li>
-                            <a class="timelime__title">Co-Founder & Chief Technology Officer @ <span
-                                    class="empresa">Torneos.GG</span></a>
+                            <a class="timelime-title">Co-Founder & Chief Technology Officer @ <span
+                                    class="timelime-company">Torneos.GG</span></a>
                             <p>Como CTO de Torneos.GG me encargo del área de tecnología, esto quiere decir que debo
                                 estar pendiente a las nuevas tendencias para así aplicarlo a la empresa. <br>
                                 También estoy a cargo de la creación de nuevos torneos para la plataforma, así
                                 como
-                                imagenes variadas para las redes sociales.</p>
+                                imagenes variadas para las socials sociales.</p>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <img class="kash animatable bounceIn lazyload" data-src="/assets/images/kash.png" alt="">
+                    <img class="timelime-image animatable bounceIn lazyload" data-src="/assets/images/kash.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="skills">
+    <section class="skills-section">
         <div class="container">
-            <h1 class="section__title-skills">Habilidades</h1>
+            <h1 class="section-title-skills">Habilidades</h1>
             <div class="row">
                 <div class="col-md-4">
-                    <p class="skills__title  animatable moveUp"><i class="fa fa-cog"></i>Desarrollador</p>
+                    <p class="skills-title animatable moveUp"><i class="fa fa-cog"></i>Desarrollador</p>
                     <div class="progress animatable moveUp">
                         <div class="progress-bar bg-dev" role="progressbar" style="width: 95%;text-align: left;"
                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>HTML</span></div>
@@ -191,7 +171,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <p class="skills__title  animatable moveUp"><i class="fa fa-paint-brush"></i>Diseñador</p>
+                    <p class="skills-title animatable moveUp"><i class="fa fa-paint-brush"></i>Diseñador</p>
                     <div class="progress animatable moveUp">
                         <div class="progress-bar bg-designer" role="progressbar" style="width: 95%;text-align: left;"
                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>PHOTOSHOP</span></div>
@@ -203,7 +183,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <p class="skills__title  animatable moveUp"><i class="fa fa-bolt"></i>Blandas</p>
+                    <p class="skills-title animatable moveUp"><i class="fa fa-bolt"></i>Blandas</p>
                     <div class="progress animatable moveUp">
                         <div class="progress-bar bg-otherskills" role="progressbar" style="width: 90%;text-align: left;"
                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>INGLÉS</span></div>
@@ -233,19 +213,19 @@
         </div>
     </section>
 
-    <section class="estudios">
+    <section class="certificate-section">
         <div class="container">
-            <h1 class="section__title"><span><i class="fa fa-certificate"></i> Certificados</span></h1>
+            <h1 class="section-title"><span><i class="fa fa-certificate"></i>Certificados</span></h1>
             <div class="row">
                 <div class="col-md-4">
-                    <a class="sectionOPURL"
+                    <a class="certificate-section-url"
                         href="https://platzi.com/@ScriptKash/curso/1640-frontend-developer/diploma/detalle/"
                         target="_blank">
-                        <div class="sectionOP__container animatable bounceIn">
-                            <div class="sectionOP__container-imagen">
+                        <div class="certificate-container animatable bounceIn">
+                            <div class="certificate-container-image">
                                 <img class="lazyload" data-src="/assets/images/platzi.png" alt="Certificado">
                             </div>
-                            <div class="sectionOP__container-texto">
+                            <div class="certificate-container-text">
                                 Curso de Frontend Developer
                             </div>
                         </div>
@@ -253,12 +233,13 @@
                 </div>
 
                 <div class="col-md-4">
-                    <a class="sectionOPURL" href="https://www.udemy.com/certificate/UC-09DGRHLV/" target="_blank">
-                        <div class="sectionOP__container animatable bounceIn">
-                            <div class="sectionOP__container-imagen">
+                    <a class="certificate-section-url" href="https://www.udemy.com/certificate/UC-09DGRHLV/"
+                        target="_blank">
+                        <div class="certificate-container animatable bounceIn">
+                            <div class="certificate-container-image">
                                 <img class="lazyload" data-src="/assets/images/udemy.png" alt="Certificado">
                             </div>
-                            <div class="sectionOP__container-texto">
+                            <div class="certificate-container-text">
                                 Master en JavaScript
                             </div>
                         </div>
@@ -269,22 +250,22 @@
     </section>
 
     <!-- particles.js container -->
-    <footer class="particulas">
+    <footer class="particles-section">
         <div id="particles-js">
-            <div class="redes">
-                <div class="redes__iconos">
+            <div class="social">
+                <div class="social-icons">
                     <a href="https://github.com/ScriptKash" target="_blank"><img class="lazyload"
                             data-src="/assets/images/iconos/github.png" alt=""></a>
                 </div>
-                <div class="redes__iconos">
+                <div class="social-icons">
                     <a href="https://twitter.com/ScriptKash" target="_blank"><img class="lazyload"
                             data-src="/assets/images/iconos/twitter.svg" alt=""></a>
                 </div>
-                <div class="redes__iconos">
+                <div class="social-icons">
                     <a href="https://www.linkedin.com/in/scriptkash/" target="_blank"><img class="lazyload"
                             data-src="/assets/images/iconos/linkedin.svg" alt=""></a>
                 </div>
-                <div class="redes__iconos">
+                <div class="social-icons">
                     <a href="https://medium.com/@scriptkash" target="_blank"><img class="lazyload"
                             data-src="/assets/images/iconos/medium.png" alt=""></a>
                 </div>
