@@ -401,6 +401,16 @@ i.fa {
   position: absolute;
   background: url(/assets/images/parallax/fondo-opt.jpg) no-repeat 50% 50%;
   background-size: cover;
+  top: -20%;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 70%;
+  background: url(/assets/images/parallax/texto-opt.png) no-repeat 50% 40%;
+  background-size: cover;
 }
 
 .parallax-el {
@@ -409,21 +419,12 @@ i.fa {
   height: 140%;
   background: url(/assets/images/parallax/ryze-test.png) no-repeat 50% 50%;
   background-size: cover;
-  top: 20%;
-}
-
-.text {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 35%;
-  background: url(/assets/images/parallax/texto-opt.png) no-repeat 50% 40%;
-  background-size: cover;
+  top: -50%;
 }
 
 .whitespace {
   width: 100%;
-  height: 122vh;
+  height: 84vh;
   background-color: black;
 }
 
