@@ -407,9 +407,9 @@ i.fa {
 .text {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 20%;
   top: 70%;
-  background: url(/assets/images/parallax/texto-opt.png) no-repeat 50% 40%;
+  background: url(/assets/images/parallax/texto-op.png) no-repeat 50% 40%;
   background-size: cover;
 }
 
@@ -1324,14 +1324,15 @@ canvas {
 
 /* ========================= MEDIA ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .whitespace {
     width: 100%;
-    height: 75vh;
+    height: 79vh;
     background-color: black;
   }
 
   .text{
-    top: 60%;
+    top: 75%;
+    height: 10%;
   }
 }
