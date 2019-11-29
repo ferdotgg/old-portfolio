@@ -991,9 +991,17 @@ canvas {
 }
 
 .card {
-  background: #111111 !important;
-  color: white;
+  background: #fff !important;
+  color: #111111;
   border: 0px solid white !important;
+  transition: all .4s ease-in-out;
+}
+
+.card:hover {
+  /* background-color: #111111 !important;
+  color: #ffffff !important; */
+  /* transition: 5s; */
+  transform: scale(0.9);
 }
 
 .badge-purple {
