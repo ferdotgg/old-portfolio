@@ -978,3 +978,20 @@ canvas {
     height: 10%;
   }
 }
+
+/* CARDS */
+.projects {
+  padding: 20px;
+  background: #ffda45;
+}
+
+.card {
+  background: #111111 !important;
+  color: white;
+  border: 0px solid white !important;
+}
+
+.badge-purple {
+  background: indigo;
+  color: white;
+}
