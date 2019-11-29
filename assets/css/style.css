@@ -722,29 +722,59 @@ ul.timeline>li:before {
   padding: 5px;
 }
 
-.progress {
-  margin: 10px 10px;
-  border-radius: 0 !important;
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 5px;
 }
 
-.progress-bar {
-  text-align: left;
-  padding: 5px;
+.skill-container-title {
+font-weight: 600;
+padding: 5px;
+font-size: 12px;
 }
 
-.bg-dev {
-  background-color: #ffda45 !important;
-  color: black !important;
+.skill-container-tech {
+font-weight: 600;
+padding: 5px;
+text-align: center;
+font-size: 12px;
 }
 
-.bg-designer {
-  background-color: #8e00ad !important;
-  color: white !important;
+.skill-dev {
+background-color: #111111;
+color: #ffda45;
 }
 
-.bg-otherskills {
-  background-color: #ad0006 !important;
-  color: white !important;
+.skill-designer {
+background-color: #fff;
+color: #8e00ad;
+}
+
+.skill-other {
+background-color: #fff;
+color: #ad0006;
+}
+
+.skill-other-nothing {
+background-color: #ad0006;
+}
+
+.skill-gold {
+background-color: #ffda45;
+}
+
+.skill-purple {
+background-color: #8e00ad;
+color: #fff;
+}
+
+.skill-red {
+background-color: #ad0006;
+color: #fff;
 }
 
 /* ========================= STUDIES ========================= */
@@ -1004,59 +1034,12 @@ canvas {
     background: indigo;
     color: white;
 }
+
+.card {
+  transition: none<
 }
 
-.skill-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin-bottom: 5px;
+.card:hover {
+  transform: none;
 }
-
-.skill-container-title {
-  font-weight: 600;
-  padding: 5px;
-  font-size: 12px;
-}
-
-.skill-container-tech {
-  font-weight: 600;
-  padding: 5px;
-  text-align: center;
-  font-size: 12px;
-}
-
-.skill-dev {
-  background-color: #111111;
-  color: #ffda45;
-}
-
-.skill-designer {
-  background-color: #fff;
-  color: #8e00ad;
-}
-
-.skill-other {
-  background-color: #fff;
-  color: #ad0006;
-}
-
-.skill-other-nothing {
-  background-color: #ad0006;
-}
-
-.skill-gold {
-  background-color: #ffda45;
-}
-
-.skill-purple {
-  background-color: #8e00ad;
-  color: #fff;
-}
-
-.skill-red {
-  background-color: #ad0006;
-  color: #fff;
 }
