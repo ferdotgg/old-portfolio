@@ -915,6 +915,29 @@ button:hover {
   }
 }
 
+/* ========================= PROJECTS ========================= */
+
+.projects {
+  padding: 20px;
+  background: #ffda45;
+}
+
+.card {
+  background: #fff !important;
+  color: #111111;
+  border: 0px solid white !important;
+  transition: all .4s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+.badge-purple {
+  background: indigo;
+  color: white;
+}
+
 /* ========================= FOOTER ========================= */
 
 canvas {
@@ -922,7 +945,6 @@ canvas {
   vertical-align: bottom;
 }
 
-/* ---- particles.js container ---- */
 .particles-section {
   align-items: center;
   justify-content: center;
@@ -984,27 +1006,57 @@ canvas {
 }
 }
 
-/* CARDS */
-.projects {
-  padding: 20px;
-  background: #ffda45;
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 5px;
 }
 
-.card {
-  background: #fff !important;
-  color: #111111;
-  border: 0px solid white !important;
-  transition: all .4s ease-in-out;
+.skill-container-title {
+  font-weight: 600;
+  padding: 5px;
+  font-size: 12px;
 }
 
-.card:hover {
-  /* background-color: #111111 !important;
-  color: #ffffff !important; */
-  /* transition: 5s; */
-  transform: scale(0.9);
+.skill-container-tech {
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
 }
 
-.badge-purple {
-  background: indigo;
-  color: white;
+.skill-dev {
+  background-color: #111111;
+  color: #ffda45;
+}
+
+.skill-designer {
+  background-color: #fff;
+  color: #8e00ad;
+}
+
+.skill-other {
+  background-color: #fff;
+  color: #ad0006;
+}
+
+.skill-other-nothing {
+  background-color: #ad0006;
+}
+
+.skill-gold {
+  background-color: #ffda45;
+}
+
+.skill-purple {
+  background-color: #8e00ad;
+  color: #fff;
+}
+
+.skill-red {
+  background-color: #ad0006;
+  color: #fff;
 }
