@@ -977,6 +977,11 @@ canvas {
     top: 75%;
     height: 10%;
   }
+
+  .badge-purple {
+    background: indigo;
+    color: white;
+}
 }
 
 /* CARDS */
