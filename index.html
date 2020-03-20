@@ -31,457 +31,468 @@
     <script src="/assets/js/particles.min.js"></script>
 </head>
 
-<body>
-    <header>
-        <div class="hero-image" data-rellax-speed="200"></div>
-        <div class="rellax parallax-el" data-rellax-speed="-4.4"></div>
-        <div class="rellax text" data-rellax-speed="-1.5"></div>
-        <div class="whitespace"></div>
-    </header>
+<body onload="myFunction()">
 
-    <section class="profile">
-        <div class="profile-container">
-            <div class="profile-container-avatar">
-                <img class="lazyload" data-src="./assets/images/me.webp" alt="">
-            </div>
-            <div class="profile-container-name">
-                <h1>Fernando Briceño</h1>
-                <h5>Soy
-                    <span class="txt-rotate" data-period="500"
-                        data-rotate='[ "desarrollador", "diseñador", "gamer" ]'></span>
-                </h5>
-            </div>
+    <div id="loader" class="loader-container">
+        <div class="flex">
+        <div class="loader">
         </div>
-    </section>
-
-    <div class="separator"></div>
-
-    <section class="about-me">
-        <div class="about-me-title">
-            <h1>¿Quién soy?</h1>
         </div>
-        <div class="about-me-info">
-            <p>Soy <span class="about-bold">Fernando</span>, un desarollador web de <span class="about-bold">Costa
-                    Rica</span>, actualmente estoy estudiando ingeniería en sistemas en la
-                <a href="https://www.una.ac.cr/" target="_blank">UNA</a> y me estoy formando profesionalmente en el
-                ámbito de programación en <a href="https://platzi.com/" target="_blank">Platzi</a>.
-            </p>
-            <p>Tengo 22 años, manejo tecnologías tanto de <span class="about-bold">frontend</span> como de <span
-                    class="about-bold">backend</span>, para poder desarrollar sitios web de calidad.
-            </p>
-            <p>Me encantan los <span class="about-bold">videojuegos</span>, de ahí nace mi pasión por los <span
-                    class="about-bold">esports</span> y esto me lleva a ser el co-fundador de una <a
-                    href="https://torneos.gg/" target="_blank">startup</a>, la cual brinda servicios para
-                aquellos
-                jugadores como yo.</p>
-            <p>Siempre trato de transmitir mis pasiones por medio de lo que hago, en este caso es por medio de el <span
-                    class="about-bold">desarrollo web</span> y el <span class="about-bold">diseño.</span></p>
+        <div class="load-text">
+        Cargando...
         </div>
-    </section>
-
-    <section class="experience-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <h4>Experiencia reciente</h4>
-                    <span class="timelime-date float-left">2018</span>
-                    <ul class="timeline">
-                        <li>
-                            <a class="timelime-title">Co-Founder & Chief Technology Officer @ <span
-                                    class="timelime-company">Torneos.GG</span></a>
-                            <p>Como CTO de Torneos.GG me encargo del área de tecnología, esto quiere decir que debo
-                                estar pendiente a las nuevas tendencias para así aplicarlo a la empresa. <br>
-                                También estoy a cargo de la creación de nuevos torneos para la plataforma.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <img class="timelime-image animatable bounceIn lazyload" data-src="/assets/images/tgg.png" alt="">
-                </div>
-            </div>
         </div>
-    </section>
 
-    <section class="skills-section">
-        <div class="container">
-            <h1 class="section-skills-title">Habilidades</h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <p class="skills-title animatable moveUp"><i class="fa fa-cog"></i>Desarrollador</p>
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            HTML
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            AVANZADO
-                        </div>
+            <header>
+                <div class="hero-image" data-rellax-speed="200"></div>
+                <div class="rellax parallax-el" data-rellax-speed="-4.4"></div>
+                <div class="rellax text" data-rellax-speed="-1.5"></div>
+                <div class="whitespace"></div>
+            </header>
+        
+            <section class="profile">
+                <div class="profile-container">
+                    <div class="profile-container-avatar">
+                        <img class="lazyload" data-src="./assets/images/me.webp" alt="">
                     </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            CSS
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            AVANZADO
-                        </div>
+                    <div class="profile-container-name">
+                        <h1>Fernando Briceño</h1>
+                        <h5>Soy
+                            <span class="txt-rotate" data-period="500"
+                                data-rotate='[ "desarrollador", "diseñador", "gamer" ]'></span>
+                        </h5>
                     </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            JAVASCRIPT
+                </div>
+            </section>
+        
+            <div class="separator"></div>
+        
+            <section class="about-me">
+                <div class="about-me-title">
+                    <h1>¿Quién soy?</h1>
+                </div>
+                <div class="about-me-info">
+                    <p>Soy <span class="about-bold">Fernando</span>, un desarollador web de <span class="about-bold">Costa
+                            Rica</span>, actualmente estoy estudiando ingeniería en sistemas en la
+                        <a href="https://www.una.ac.cr/" target="_blank">UNA</a> y me estoy formando profesionalmente en el
+                        ámbito de programación en <a href="https://platzi.com/" target="_blank">Platzi</a>.
+                    </p>
+                    <p>Tengo 22 años, manejo tecnologías tanto de <span class="about-bold">frontend</span> como de <span
+                            class="about-bold">backend</span>, para poder desarrollar sitios web de calidad.
+                    </p>
+                    <p>Me encantan los <span class="about-bold">videojuegos</span>, de ahí nace mi pasión por los <span
+                            class="about-bold">esports</span> y esto me lleva a ser el co-fundador de una <a
+                            href="https://torneos.gg/" target="_blank">startup</a>, la cual brinda servicios para
+                        aquellos
+                        jugadores como yo.</p>
+                    <p>Siempre trato de transmitir mis pasiones por medio de lo que hago, en este caso es por medio de el <span
+                            class="about-bold">desarrollo web</span> y el <span class="about-bold">diseño.</span></p>
+                </div>
+            </section>
+        
+            <section class="experience-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h4>Experiencia reciente</h4>
+                            <span class="timelime-date float-left">2018</span>
+                            <ul class="timeline">
+                                <li>
+                                    <a class="timelime-title">Co-Founder & Chief Technology Officer @ <span
+                                            class="timelime-company">Torneos.GG</span></a>
+                                    <p>Como CTO de Torneos.GG me encargo del área de tecnología, esto quiere decir que debo
+                                        estar pendiente a las nuevas tendencias para así aplicarlo a la empresa. <br>
+                                        También estoy a cargo de la creación de nuevos torneos para la plataforma.</p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="skill-container-tech skill-dev">
-                            INTERMEDIO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            REACT.JS
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            INTERMEDIO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            LARAVEL
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            INTERMEDIO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            ASP .NET
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            BÁSICO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            BOOTSTRAP
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            AVANZADO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            SQL SERVER
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            INTERMEDIO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            MYSQL
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            INTERMEDIO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            MONGODB
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            BÁSICO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            GIT
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            AVANZADO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-gold">
-                            DEVOPS
-                        </div>
-                        <div class="skill-container-tech skill-dev">
-                            INTERMEDIO
+                        <div class="col-md-4">
+                            <img class="timelime-image animatable bounceIn lazyload" data-src="/assets/images/tgg.png" alt="">
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <p class="skills-title animatable moveUp"><i class="fa fa-paint-brush"></i>Diseñador</p>
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-purple">
-                            PHOTOSHOP
-                        </div>
-                        <div class="skill-container-tech skill-designer">
-                            INTERMEDIO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-purple">
-                            PREMIERE PRO
-                        </div>
-                        <div class="skill-container-tech skill-designer">
-                            INTERMEDIO
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <p class="skills-title animatable moveUp"><i class="fa fa-bolt"></i>Blandas</p>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-red">
-                            INGLÉS
-                        </div>
-                        <div class="skill-container-tech skill-other">
-                            INTERMEDIO
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-red">
-                            COMUNICACIÓN ESCRITA
-                        </div>
-                        <div class="skill-container-tech skill-other-nothing">
-
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-red">
-                            TRABAJO EN EQUIPO
-                        </div>
-                        <div class="skill-container-tech skill-other-nothing">
-
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-red">
-                            LIDERAZGO
-                        </div>
-                        <div class="skill-container-tech skill-other-nothing">
-
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-red">
-                            PENSAMIENTO CRÍTICO
-                        </div>
-                        <div class="skill-container-tech skill-other-nothing">
-
-                        </div>
-                    </div>
-
-                    <div class="skill-container animatable moveUp">
-                        <div class="skill-container-title skill-red">
-                            CREATIVIDAD
-                        </div>
-                        <div class="skill-container-tech skill-other-nothing">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="certificate-section">
-        <div class="container">
-            <h1 class="certificate-section-title"><span><i class="fa fa-certificate"></i>Certificados</span></h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <a class="certificate-section-url"
-                        href="https://platzi.com/@ScriptKash/curso/1640-frontend-developer/diploma/detalle/"
-                        target="_blank">
-                        <div class="certificate-container animatable bounceIn">
-                            <div class="certificate-container-image">
-                                <img class="lazyload"
-                                    data-src="https://static.platzi.com/media/achievements/badge-frontend-developer-8a49e681-3e22-408d-b886-2f47dfc9953a.png"
-                                    alt="Certificado">
+            </section>
+        
+            <section class="skills-section">
+                <div class="container">
+                    <h1 class="section-skills-title">Habilidades</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="skills-title animatable moveUp"><i class="fa fa-cog"></i>Desarrollador</p>
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    HTML
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    AVANZADO
+                                </div>
                             </div>
-                            <div class="certificate-container-text">
-                                Curso de Frontend Developer
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    CSS
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    AVANZADO
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a class="certificate-section-url"
-                        href="https://platzi.com/@ScriptKash/curso/1339-fundamentos-javascript/diploma/detalle/"
-                        target="_blank">
-                        <div class="certificate-container animatable bounceIn">
-                            <div class="certificate-container-image">
-                                <img class="lazyload"
-                                    data-src="https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png"
-                                    alt="Certificado">
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    JAVASCRIPT
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    INTERMEDIO
+                                </div>
                             </div>
-                            <div class="certificate-container-text">
-                                Fundamentos de JavaScript
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    REACT.JS
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    INTERMEDIO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    LARAVEL
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    INTERMEDIO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    ASP .NET
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    BÁSICO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    BOOTSTRAP
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    AVANZADO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    SQL SERVER
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    INTERMEDIO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    MYSQL
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    INTERMEDIO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    MONGODB
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    BÁSICO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    GIT
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    AVANZADO
+                                </div>
+                            </div>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-gold">
+                                    DEVOPS
+                                </div>
+                                <div class="skill-container-tech skill-dev">
+                                    INTERMEDIO
+                                </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a class="certificate-section-url" href="https://www.udemy.com/certificate/UC-09DGRHLV/"
-                        target="_blank">
-                        <div class="certificate-container animatable bounceIn">
-                            <div class="certificate-container-image">
-                                <img class="lazyload" data-src="/assets/images/udemy.png" alt="Certificado">
+        
+                        <div class="col-md-4">
+                            <p class="skills-title animatable moveUp"><i class="fa fa-paint-brush"></i>Diseñador</p>
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-purple">
+                                    PHOTOSHOP
+                                </div>
+                                <div class="skill-container-tech skill-designer">
+                                    INTERMEDIO
+                                </div>
                             </div>
-                            <div class="certificate-container-text">
-                                Master en JavaScript
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a class="certificate-section-url"
-                        href="https://platzi.com/@ScriptKash/curso/1642-javascript-profesional/diploma/detalle/"
-                        target="_blank">
-                        <div class="certificate-container animatable bounceIn">
-                            <div class="certificate-container-image">
-                                <img class="lazyload"
-                                    data-src="https://static.platzi.com/media/achievements/badge-profesional-javascript-13538df2-24ce-433f-9aa6-e34eed608e70.png"
-                                    alt="Certificado">
-                            </div>
-                            <div class="certificate-container-text">
-                                Curso Profesional de JavaScript
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-purple">
+                                    PREMIERE PRO
+                                </div>
+                                <div class="skill-container-tech skill-designer">
+                                    INTERMEDIO
+                                </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a class="certificate-section-url"
-                        href="https://platzi.com/@ScriptKash/curso/1651-react-ejs/diploma/detalle/" target="_blank">
-                        <div class="certificate-container animatable bounceIn">
-                            <div class="certificate-container-image">
-                                <img class="lazyload"
-                                    data-src="https://static.platzi.com/media/achievements/badge-react-adec89d0-1c35-4c9c-847e-18c284dc79dd.png"
-                                    alt="Certificado">
+        
+                        <div class="col-md-4">
+                            <p class="skills-title animatable moveUp"><i class="fa fa-bolt"></i>Blandas</p>
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-red">
+                                    INGLÉS
+                                </div>
+                                <div class="skill-container-tech skill-other">
+                                    INTERMEDIO
+                                </div>
                             </div>
-                            <div class="certificate-container-text">
-                                Curso Práctico de React JS
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-red">
+                                    COMUNICACIÓN ESCRITA
+                                </div>
+                                <div class="skill-container-tech skill-other-nothing">
+        
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a class="certificate-section-url"
-                        href="https://platzi.com/@ScriptKash/curso/1350-html5-css3/diploma/detalle/" target="_blank">
-                        <div class="certificate-container animatable bounceIn">
-                            <div class="certificate-container-image">
-                                <img class="lazyload"
-                                    data-src="https://static.platzi.com/media/achievements/1350-09ddb033-354b-4c0c-84a4-56cbb71d0b08.png"
-                                    alt="Certificado">
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-red">
+                                    TRABAJO EN EQUIPO
+                                </div>
+                                <div class="skill-container-tech skill-other-nothing">
+        
+                                </div>
                             </div>
-                            <div class="certificate-container-text">
-                                Curso Desarrollo Web Online
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-red">
+                                    LIDERAZGO
+                                </div>
+                                <div class="skill-container-tech skill-other-nothing">
+        
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-md-4">
-                    <a class="certificate-section-url"
-                        href="https://platzi.com/@ScriptKash/curso/1098-ingenieria/diploma/detalle/" target="_blank">
-                        <div class="certificate-container animatable bounceIn">
-                            <div class="certificate-container-image">
-                                <img class="lazyload"
-                                    data-src="https://static.platzi.com/media/achievements/badge-ing-software-2017-18f503fd-36bd-42d8-b1a1-492865659687.png"
-                                    alt="Certificado">
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-red">
+                                    PENSAMIENTO CRÍTICO
+                                </div>
+                                <div class="skill-container-tech skill-other-nothing">
+        
+                                </div>
                             </div>
-                            <div class="certificate-container-text">
-                                Fundamentos de Ingeniería de Software
+        
+                            <div class="skill-container animatable moveUp">
+                                <div class="skill-container-title skill-red">
+                                    CREATIVIDAD
+                                </div>
+                                <div class="skill-container-tech skill-other-nothing">
+        
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="projects">
-        <div class="container">
-            <h1 class="section-skills-title">Proyectos</h1>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    
-                    <div class="card mb-3">
-                        <img src="/assets/images/proyectos/asada.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">ASADA-SOP</h5>
-                            <p class="card-text">Sistema de administración y agilización de procesos para una ASADA.</p>
-                            <p class="card-text"><small class="text-muted">
-                                    <span class="badge badge-pill badge-danger">Laravel</span>
-                                    <span class="badge badge-pill badge-success">MySQL</span>
-                                    <span class="badge badge-pill badge-purple">Bootstrap</span>
-                                </small></p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6">
-                    <a style="text-decoration: none;" href="https://torneos.gg/" target="_blank">
-                    <div class="card mb-3">
-                        <img src="/assets/images/proyectos/torneosgg.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Torneos.GG</h5>
-                            <p class="card-text">Multiplataforma de torneos para videojuegos eSports en linea.</p>
-                            <p class="card-text"><small class="text-muted">
-                                    <span class="badge badge-pill badge-primary">ReactJS</span>
-                                    <span class="badge badge-pill badge-success">MongoDB</span>
-                                    <span class="badge badge-pill badge-purple">Material-UI</span>
-                                </small></p>
+            </section>
+        
+            <section class="certificate-section">
+                <div class="container">
+                    <h1 class="certificate-section-title"><span><i class="fa fa-certificate"></i>Certificados</span></h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a class="certificate-section-url"
+                                href="https://platzi.com/@ScriptKash/curso/1640-frontend-developer/diploma/detalle/"
+                                target="_blank">
+                                <div class="certificate-container animatable bounceIn">
+                                    <div class="certificate-container-image">
+                                        <img class="lazyload"
+                                            data-src="https://static.platzi.com/media/achievements/badge-frontend-developer-8a49e681-3e22-408d-b886-2f47dfc9953a.png"
+                                            alt="Certificado">
+                                    </div>
+                                    <div class="certificate-container-text">
+                                        Curso de Frontend Developer
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                            <a class="certificate-section-url"
+                                href="https://platzi.com/@ScriptKash/curso/1339-fundamentos-javascript/diploma/detalle/"
+                                target="_blank">
+                                <div class="certificate-container animatable bounceIn">
+                                    <div class="certificate-container-image">
+                                        <img class="lazyload"
+                                            data-src="https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png"
+                                            alt="Certificado">
+                                    </div>
+                                    <div class="certificate-container-text">
+                                        Fundamentos de JavaScript
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                            <a class="certificate-section-url" href="https://www.udemy.com/certificate/UC-09DGRHLV/"
+                                target="_blank">
+                                <div class="certificate-container animatable bounceIn">
+                                    <div class="certificate-container-image">
+                                        <img class="lazyload" data-src="/assets/images/udemy.png" alt="Certificado">
+                                    </div>
+                                    <div class="certificate-container-text">
+                                        Master en JavaScript
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                            <a class="certificate-section-url"
+                                href="https://platzi.com/@ScriptKash/curso/1642-javascript-profesional/diploma/detalle/"
+                                target="_blank">
+                                <div class="certificate-container animatable bounceIn">
+                                    <div class="certificate-container-image">
+                                        <img class="lazyload"
+                                            data-src="https://static.platzi.com/media/achievements/badge-profesional-javascript-13538df2-24ce-433f-9aa6-e34eed608e70.png"
+                                            alt="Certificado">
+                                    </div>
+                                    <div class="certificate-container-text">
+                                        Curso Profesional de JavaScript
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                            <a class="certificate-section-url"
+                                href="https://platzi.com/@ScriptKash/curso/1651-react-ejs/diploma/detalle/" target="_blank">
+                                <div class="certificate-container animatable bounceIn">
+                                    <div class="certificate-container-image">
+                                        <img class="lazyload"
+                                            data-src="https://static.platzi.com/media/achievements/badge-react-adec89d0-1c35-4c9c-847e-18c284dc79dd.png"
+                                            alt="Certificado">
+                                    </div>
+                                    <div class="certificate-container-text">
+                                        Curso Práctico de React JS
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+        
+                        <div class="col-md-4">
+                            <a class="certificate-section-url"
+                                href="https://platzi.com/@ScriptKash/curso/1350-html5-css3/diploma/detalle/" target="_blank">
+                                <div class="certificate-container animatable bounceIn">
+                                    <div class="certificate-container-image">
+                                        <img class="lazyload"
+                                            data-src="https://static.platzi.com/media/achievements/1350-09ddb033-354b-4c0c-84a4-56cbb71d0b08.png"
+                                            alt="Certificado">
+                                    </div>
+                                    <div class="certificate-container-text">
+                                        Curso Desarrollo Web Online
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <a class="certificate-section-url"
+                                href="https://platzi.com/@ScriptKash/curso/1098-ingenieria/diploma/detalle/" target="_blank">
+                                <div class="certificate-container animatable bounceIn">
+                                    <div class="certificate-container-image">
+                                        <img class="lazyload"
+                                            data-src="https://static.platzi.com/media/achievements/badge-ing-software-2017-18f503fd-36bd-42d8-b1a1-492865659687.png"
+                                            alt="Certificado">
+                                    </div>
+                                    <div class="certificate-container-text">
+                                        Fundamentos de Ingeniería de Software
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </a>
                 </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer class="particles-section">
-        <div id="particles-js">
-            <div class="social">
-                <div class="social-icons">
-                    <a href="https://github.com/ScriptKash" target="_blank"><img class="lazyload"
-                            data-src="/assets/images/iconos/github.png" alt=""></a>
+            </section>
+        
+            <section class="projects">
+                <div class="container">
+                    <h1 class="section-skills-title">Proyectos</h1>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            
+                            <div class="card mb-3">
+                                <img src="/assets/images/proyectos/asada.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">ASADA-SOP</h5>
+                                    <p class="card-text">Sistema de administración y agilización de procesos para una ASADA.</p>
+                                    <p class="card-text"><small class="text-muted">
+                                            <span class="badge badge-pill badge-danger">Laravel</span>
+                                            <span class="badge badge-pill badge-success">MySQL</span>
+                                            <span class="badge badge-pill badge-purple">Bootstrap</span>
+                                        </small></p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-md-6">
+                            <a style="text-decoration: none;" href="https://torneos.gg/" target="_blank">
+                            <div class="card mb-3">
+                                <img src="/assets/images/proyectos/torneosgg.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Torneos.GG</h5>
+                                    <p class="card-text">Multiplataforma de torneos para videojuegos eSports en linea.</p>
+                                    <p class="card-text"><small class="text-muted">
+                                            <span class="badge badge-pill badge-primary">ReactJS</span>
+                                            <span class="badge badge-pill badge-success">MongoDB</span>
+                                            <span class="badge badge-pill badge-purple">Material-UI</span>
+                                        </small></p>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+        
+                    </div>
                 </div>
-                <!-- <div class="social-icons">
-                    <a href="https://twitter.com/ScriptKash" target="_blank"><img class="lazyload"
-                            data-src="/assets/images/iconos/twitter.svg" alt=""></a>
-                </div> -->
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/scriptkash/" target="_blank"><img class="lazyload"
-                            data-src="/assets/images/iconos/linkedin.svg" alt=""></a>
+            </section>
+        
+            <footer class="particles-section">
+                <div id="particles-js">
+                    <div class="social">
+                        <div class="social-icons">
+                            <a href="https://github.com/ScriptKash" target="_blank"><img class="lazyload"
+                                    data-src="/assets/images/iconos/github.png" alt=""></a>
+                        </div>
+                        <!-- <div class="social-icons">
+                            <a href="https://twitter.com/ScriptKash" target="_blank"><img class="lazyload"
+                                    data-src="/assets/images/iconos/twitter.svg" alt=""></a>
+                        </div> -->
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/scriptkash/" target="_blank"><img class="lazyload"
+                                    data-src="/assets/images/iconos/linkedin.svg" alt=""></a>
+                        </div>
+                        <!-- <div class="social-icons">
+                            <a href="https://medium.com/@scriptkash" target="_blank"><img class="lazyload"
+                                    data-src="/assets/images/iconos/medium.png" alt=""></a>
+                        </div> -->
+                    </div>
                 </div>
-                <!-- <div class="social-icons">
-                    <a href="https://medium.com/@scriptkash" target="_blank"><img class="lazyload"
-                            data-src="/assets/images/iconos/medium.png" alt=""></a>
-                </div> -->
-            </div>
-        </div>
-    </footer>
+            </footer>
 
 
     <!-- SCRIPTS -->
@@ -494,6 +505,18 @@
     <script src="/assets/js/lazysizes.min.js" async=""></script>
     <script src="/assets/js/particles.js"></script>
     <script src="/assets/js/animations.js"></script>
+
+    <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+        }
+        </script>
 </body>
 
 </html>
