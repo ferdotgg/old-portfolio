@@ -508,6 +508,33 @@ ul.timeline>li:before {
   color: white;
 }
 
+
+/* ========================= BLOG ========================= */
+
+.blog {
+  padding: 20px;
+  background: #0f0f0f;
+}
+
+.card-blog {
+  background: #141414 !important;
+  color: #fff;
+  border: 0px solid white !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  transition: all .4s ease-in-out;
+}
+
+.card-blog:hover {
+  background: #191919 !important;
+}
+
+.card-blog-img {
+  height: 200px !important;
+  background-size: cover !important;
+}
+
+
 /* ========================= FOOTER ========================= */
 
 canvas {
