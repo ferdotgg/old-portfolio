@@ -312,6 +312,10 @@ ul.timeline>li:before {
   z-index: 400;
 }
 
+.image-container {
+  text-align: center;
+}
+
 .timelime-image {
   width: 260px;
 }
